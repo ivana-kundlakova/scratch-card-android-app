@@ -1,0 +1,9 @@
+<resources>
+    <!-- Use MaterialComponents to ensure compatibility if Material3 is not resolving in XML -->
+    <style name="Theme.ScratchCardApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+</resources>

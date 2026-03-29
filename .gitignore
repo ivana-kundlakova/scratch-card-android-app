@@ -1,0 +1,31 @@
+# Build folders
+.gradle/
+/build/
+/*/build/
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+/local.properties
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# Kotlin
+.kotlin/
+
+# Output artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Java / Android logs
+*.log
+*.hprof
+
+# Studio Bot / Agent internal files
+.agent/
+input_images/
